@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Principal">
+
+    <!-- Imagem da Capital -->
+    <TextView
+        android:id="@+id/textEstado"
+        android:layout_width="100dp"
+        android:layout_height="33dp"
+        android:gravity="center"
+        android:text="Nome do Estado"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="50dp"/>
+
+    <ImageView
+        android:id="@+id/imageCapital"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="5dp"
+        android:contentDescription="Imagem da Capital"
+        android:layout_marginLeft="50dp"/>
+
+
+    <Button
+        android:id="@+id/btnMicrofone"
+        android:layout_width="93dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="@color/cinza"
+        android:drawableStart="@android:drawable/ic_btn_speak_now"
+        android:text="Falar"
+        android:textSize="12sp" />
+
+</LinearLayout>
