@@ -5,45 +5,19 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@mipmap/fundo"
     tools:context=".MainActivity">
 
-    <!-- Nome do Estado -->
-    <TextView
-        android:id="@+id/textEstado"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Nome do Estado"
-        android:textSize="11sp"
-        android:textStyle="bold"
-        android:gravity="center"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:padding="11dp" />
-
-    <!-- Imagem da Capital -->
-    <ImageView
-        android:id="@+id/imageCapital"
-        android:layout_width="110dp"
-        android:layout_height="110dp"
-        android:scaleType="fitCenter"
-        android:contentDescription="Imagem da Capital"
-        app:layout_constraintTop_toBottomOf="@id/textEstado"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="8dp" />
-
-    <!-- Botão para ativar microfone -->
     <Button
-        android:id="@+id/btnMicrofone"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Falar"
-        android:textSize="12sp"
-        android:drawableStart="@android:drawable/ic_btn_speak_now"
-        app:layout_constraintTop_toBottomOf="@id/imageCapital"
-        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/button"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#11206B"
+        android:drawableBottom="@android:drawable/ic_media_play"
+        android:text="-"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="8dp" />
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

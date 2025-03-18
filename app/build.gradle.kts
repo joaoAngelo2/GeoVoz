@@ -31,6 +31,7 @@ android {
 }
 
 dependencies {
+    implementation ("com.alphacephei:vosk-android:0.3.32+")
     implementation ("androidx.room:room-runtime:2.6.1")
     annotationProcessor ("androidx.room:room-compiler:2.6.1")
     implementation ("androidx.appcompat:appcompat:1.6.1")
